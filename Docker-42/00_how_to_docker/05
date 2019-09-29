@@ -1,0 +1,3 @@
+#run the hello-world container it shoul print all the welcome info
+
+docker run hello-world 

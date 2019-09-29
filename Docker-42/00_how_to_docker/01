@@ -1,0 +1,6 @@
+#brew install docker-machine
+#docker machine create-docker
+#docker machine start-docker
+#created a container named char attached to vb by using d-m
+
+docker-machine create--driver=virtual Char
