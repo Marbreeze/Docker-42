@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    04                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mstratu <mstratu@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/30 16:23:15 by mstratu           #+#    #+#              #
+#    Updated: 2019/09/30 16:23:16 by mstratu          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
+#dont forget to brew your docker
+#docker and docker hub are related, so just pull the container from the docker-hub
+
+docker pull hello-world
+
+#pull the img to my docker

@@ -1,0 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    10                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mstratu <mstratu@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/30 16:25:31 by mstratu           #+#    #+#              #
+#    Updated: 2019/09/30 16:25:34 by mstratu          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Creates a new volume that containers can consume and store data in. If a name is not specified, Docker generates a random name.
+
+docker volume create hatchery

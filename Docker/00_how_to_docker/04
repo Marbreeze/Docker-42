@@ -1,0 +1,6 @@
+#dont forget to brew your docker
+#docker and docker hub are related, so just pull the container from the docker-hub
+
+docker pull hello-world
+
+#pull the img to my docker

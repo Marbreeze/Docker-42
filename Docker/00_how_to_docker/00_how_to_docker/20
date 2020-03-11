@@ -1,0 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    20                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mstratu <mstratu@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/30 16:29:18 by mstratu           #+#    #+#              #
+#    Updated: 2019/09/30 16:29:39 by mstratu          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#create a local swarm, the Char virtual machine should be its manager.
+
+docker swarm init --advertise-addr $(docker-machine ip Char)

@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    30                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mstratu <mstratu@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/30 16:32:59 by mstratu           #+#    #+#              #
+#    Updated: 2019/09/30 16:34:32 by mstratu          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Increase the number of copies of the marines service up to twenty, because there’s
+#never enough Marines to eliminate Zergs. (Remember to take a look at the tasks
+#and logs of the service, you’ll see, it’s fun.)
+
+docker service scale -d marines=20

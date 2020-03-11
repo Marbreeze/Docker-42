@@ -1,0 +1,5 @@
+#https://stackoverflow.com/questions/43692961/how-to-get-ip-address-of-running-docker-container/43694284
+
+docker inspect<nameofContainer>
+
+#it gives all the descritions look for "IPAddress"

@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    07                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mstratu <mstratu@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/30 16:24:07 by mstratu           #+#    #+#              #
+#    Updated: 2019/09/30 16:24:08 by mstratu          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
+#https://stackoverflow.com/questions/43692961/how-to-get-ip-address-of-running-docker-container/43694284
+
+docker inspect<nameofContainer>
+
+#it gives all the descritions look for "IPAddress"

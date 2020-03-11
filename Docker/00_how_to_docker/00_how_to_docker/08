@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mstratu <mstratu@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/30 16:24:25 by mstratu           #+#    #+#              #
+#    Updated: 2019/09/30 16:24:31 by mstratu          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Launch a shell from an alpine container, and make sure that you can interact
+#directly with the container via your terminal, and that the container deletes
+#itself once the shell’s execution is done.
+
+#pull alphine first "docker pull alpine"
+
+docker run --rm alpine
+
+#https://www.powercms.in/blog/how-automatically-delete-docker-container-after-running-it
+
+

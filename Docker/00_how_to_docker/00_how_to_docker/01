@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mstratu <mstratu@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/30 16:41:43 by mstratu           #+#    #+#              #
+#    Updated: 2019/09/30 16:41:46 by mstratu          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#brew install docker-machine
+#docker machine create-docker
+#docker machine start-docker
+#created a container named char attached to vb by using d-m
+
+docker-machine create--driver=virtual Char

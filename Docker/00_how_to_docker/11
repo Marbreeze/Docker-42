@@ -1,0 +1,3 @@
+#lists all the volumes known to docker
+
+docker volume ls
